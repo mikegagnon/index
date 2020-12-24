@@ -1,0 +1,33 @@
+Chapter 18
+
+Fast Bounty
+
+On December 5, 2009, the Defense Advanced Research Projects
+Agency (DARPA) released 10 red weather balloons scattered
+
+across the United States. In advance, DARPA had issued a
+
+challenge: the first team to successfully report the location of
+
+all ten balloons will win $40,000.
+
+Many teams scrambled to recruit their social networks to hunt
+for the balloons. The MIT team won the challenge, and, in the
+process, they discovered a new social-networking algorithm.
+
+The MIT team basically used an economically sound version
+of a pyramid scheme to recruit balloon hunters. Here’s how
+it worked. The MIT team announced that if they won the
+challenge they would give out prizes. For each balloon found,
+they offered a $2,000 prize to the first person to report that
+balloon. Furthermore, whoever told that person about the
+competition would win $1000. And whoever told that person
+about the competition would win $500, and so on.
+
+The algorithm came to be known as Time Critical Social Mo-
+bilization (TCSM), and immediately fell into obscurity. How-
+ever, on June 3, 2024 Gloriane Denault revived it by releasing
+a mobile app implementing TCSM, called Fast Bounty. The
+
+47
+

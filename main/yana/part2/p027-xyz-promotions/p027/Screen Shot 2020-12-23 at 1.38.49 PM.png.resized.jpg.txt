@@ -1,0 +1,30 @@
+XYZ Promotions
+
+During my travels, I discovered a formula for kickstarting de-
+centralized Groupon promotions—which I named XYZ pro-
+motions. Assuming you have a great DJ friend, it works as
+follows.
+
+‘You walk up to the owner or manager of a club, and say:
+“If I were to deliver to you X customers on a Sunday night,
+by DJing for you, how much would you be willing to pay me
+for that?” Let the response equal $Y. I.e., the owner is willing
+to pay $Y to receive X customers. Take $Y and divide it by
+two: ie., $Z = $x. Keep $Z for the DJ, as profit. Then
+give each of the first X customers a coupon worth $Z. The
+coupons are only redeemable if at least X customers show up.
+Also, it might be better to take a smaller profit in order to
+offer bigger coupons, but that’s just a matter of optimization.
+
+The owner loves this deal because it is very low risk; the
+owner only pays out if the owner gets what they want. Now
+my friends are incentivized to recruit their friends to come to
+the club with them. And that’s the most fun way to go toa
+club anyway.
+
+The DJ loves this deal, I love this deal, the owner loves
+this deal, my friends love this deal, and their friends love this
+deal. Win, win, all the way around.
+
+27
+

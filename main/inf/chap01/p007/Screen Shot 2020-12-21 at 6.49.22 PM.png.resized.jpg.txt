@@ -1,0 +1,29 @@
+Chapter 1
+
+The Quine Simulator
+
+On March 2, 2042, the world was nearing the end of World
+War 4, the war of cyber-kinetic nuclear terrorism, and Profes-
+sor Steve was a computer scientist working at MIT Lincoln
+Laboratory. At the time, LL was MIT’s largest laboratory
+and the entirety of LL’s work was classified research and de-
+velopment for the United States’ Department of Defense. A
+little known fact about LL was that LL accounted for slightly
+over half of MIT’s total budget, which becomes unsurpris-
+ing when you consider that they were building things such
+as the world’s most high-fidelity reality simulator, the Quine
+simulator.
+
+Quine operates by simulating the interactions of subatomic
+particles. Just as intelligence emerges from particle interac-
+tions in reality,! so does it play out in Quine. Well, mostly.
+For performance reasons, Quine doesn’t simulate the interac-
+tions of elementary particles. Rather, Quine simulates the in-
+teractions of particles one layer above in the holarchy, namely:
+protons, neutrons, etc.. This performance enhancement cre-
+ated a problem, however. Specifically, the early tests with
+Quine lead to an unexpectedly chaotic world, and humanity
+
+1See http://michaelgagnon.me/free-will
+
+7

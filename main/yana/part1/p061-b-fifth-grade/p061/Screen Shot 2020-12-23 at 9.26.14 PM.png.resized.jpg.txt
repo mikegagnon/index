@@ -1,0 +1,19 @@
+5th grade
+
+In the fifth grade, I began teaching myself to program in
+QBASIC. One of my first pieces of software was a game called
+Airstrike. I wrote the following instruction manual:
+
+This game was created by Tharpa Thaye in 1995.
+In the game you are a jet fighter pilot. In the last
+battle (Level 1), your radar broke. So you will
+not know where the enemy is. Your objective is
+to get in shooting range (the enemy is in shooting
+range if he is 5 meters dead ahead of you) with
+the enemy. Then, you must shoot the enemy. You
+only get one shot so make it good. If you hit the
+enemy you win. If you pass, crash into, you miss
+the enemy, or if he hits you, you lose. Good luck!
+
+61
+

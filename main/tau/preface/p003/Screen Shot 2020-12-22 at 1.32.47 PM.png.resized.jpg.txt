@@ -1,0 +1,33 @@
+Preface
+
+I am intimately familiar with computer science and Bud-
+dhism. I have been studying and practicing computer science
+for decades, and I have been studying and practicing Bud-
+dhism for about seven years. This book presents a collection
+of essays relating to computer science, Buddhism, mathemat-
+ics, science, engineering, and so on.
+
+I originally planned for this book to function as a fountain
+code. This way, you could randomly read any N chapters, say
+10 chapters, in any order, and then through a poof of mathe-
+matical magic, you would suddenly understand my message. I
+also toyed around with revealing my message through Shamir
+secret sharing or perhaps a Reed-Solomon code or perhaps via
+the Vidyadhara’s tantric implementation of self secrecy, but, I
+have abandoned these tempting ideas, because I have decided
+to rush publication.
+
+This book isn’t even finished yet. I won’t tell you upfront
+in the Preface why I am rushing publication, because I don’t
+want to spoil the ending, which is located somewhere between
+the lines, in one or more of these chapters.
+
+Towards part of my original concept for this book, I have
+made a haphazard effort to highlight key terms in a san-serif
+font, like this this font. My plan was to place a See Also section
+at the end of every chapter, which, for each key term that ap-
+peared in that chapter, contained either or forward-reference
+or a backward-reference pointing to a chapter that dove deep
+into that key term. Another idea that tempted me, was to
+feed these forward- and backward-references into a Page Rank
+

@@ -1,0 +1,18 @@
+28 CHAPTER 10. GODEL’S LOST THEOREM
+
+But... they found zero contradictions, and, eventually, every-
+one conceded Gédel’s Theorem was true.
+
+Fast forwarding to the year 2027, a librarian with a knack
+for reading illegible handwriting discovered what came to be
+known as Gédel’s Lost Theorem. The newly discovered the-
+orem stated that it is possible to prove every true statement
+using consistent logic; a direct contradiction to Gédel’s The-
+orem! Yet, according to Gédel’s proof, both theorems remain
+valid due to inconsistent logic.
+
+As late as 2042, the vast majority of mathematicians rejected
+Gédel’s proof for his Lost Theorem. In their published papers,
+they speculated that his use of inconsistent logic was due to
+the madness he experienced late in his life.
+

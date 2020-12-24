@@ -1,0 +1,41 @@
+30CHAPTER 11. PROVING GODEL’S LOST THEOREM
+
+Professor Steve accepted the paper, and sat down on the
+table. He carefully wrote: “Gédel’s Lost Theorem,” then
+rapidly scribbled out what would appear to most people as
+nothing but nonsense:
+
+c; & stmt[i = j].1 = truthy
+co “to < stmtfi = j].t < stmifi = j]t+8<t
+cz “ consistency(j) < B
+
+z 1 ifexAcAc3
+Je | 0 otherwise
+
+(torts) & 1 ifqAc
+
+Eyes { 0 otherwise
+
+For years, Professor Steve had a hobby of attempting to prove
+Gédel’s Lost Theorem, though he kept this hobby a secret,
+because only cranks worked on the problem.
+
+“I haven’t yet figured out why mathematicians can’t grok
+Gédel’s Lost Theorem,” said a woman’s voice from behind
+
+Professor Steve.
+
+Professor Steve turned around, and shot at her: “So you’ve
+solved Gédel’s Lost Theorem?”
+
+She stepped back, then said, “If you believe contradictory
+beliefs long enough, the contradictions resolve themselves, re-
+vealing the inherent consistency underneath.”
+
+“You're crazy,” he told her.
+
+“Yes, I’m crazy, but I’m also sane.”
+
+Professor Steve turned away. There was a pause. He turned
+back to face her.
+

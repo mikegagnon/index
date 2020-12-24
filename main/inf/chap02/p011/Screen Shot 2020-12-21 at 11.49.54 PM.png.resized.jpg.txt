@@ -1,0 +1,30 @@
+Chapter 2
+
+The Infinite Corridor
+
+The scientists were puzzled. The Quine was only running
+in realtime; the fast-forward button wasn’t working. They
+looked around, and saw that no one was looking, so they
+took a peek, hoping for clues about their problem.
+
+Professor Steve and his colleagues looked at their monitor in
+horror. They were tuned into a video feed from their Quine
+simulator, observing what was happening in the simulated
+reality. More specifically, they were watching a video feed of
+simulated versions of themselves, watching a video feed of the
+simulation within the simulation within the simulation...
+
+It hadn’t occurred to them beforehand that if they simulated
+Quine within Quine, that the simulated scientists would also
+simulate Quine within the simulated Quine, and so on... cre-
+ating an infinite regression of Quines, because every simula-
+tion of Quine includes a simulation of Quine.
+
+Over the speakers, Professor Steve and his colleagues heard
+one of the simulated scientists say: “I think the probability
+that we’re living in a simulation just skyrocketed.”
+
+There was a pause. Then someone in the room said: “I think
+
+11
+

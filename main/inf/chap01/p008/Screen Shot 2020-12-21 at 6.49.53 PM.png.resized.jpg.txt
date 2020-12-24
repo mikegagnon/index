@@ -1,0 +1,41 @@
+8 CHAPTER 1. THE QUINE SIMULATOR
+
+wouldn’t function realistically. To work around this problem,
+the scientists behind Quine, Professor Steve among them,
+hardcoded some basic assumptions about the nature of hu-
+manity into the simulation. Following the work of Professor
+John Nash, winner of the Nobel Prize in Economics for his
+discovery of Game Theory, they hardcoded self interest as
+the basis for humanity. As we’ll find out later, this assump-
+tion missed the mark, but it was the starting basis for the
+first high-fidelity reality simulations, so it is worth mention-
+ing here.
+
+Completed just two weeks prior, the goal of the Quine sim-
+ulator was to identify scenarios that would end truce negoti-
+ations favorably for the United States. The simulator’s best
+scenario it had found so far was to divide France in half,
+and Paris in half, like Germany and Berlin at the end of
+WW2. Simulations showed this would result in a new cold
+war (WW5), which would contain 23 years of intermittent vi-
+olence, albeit less violence than found in WW4. Then, WW5
+would end by replacing the UN with the Federation of United
+Nations, which would include legislative, judicial, and exec-
+utive branches representing all nation states fairly. The first
+article of FUN’s constitution would read “In God We Trust,”
+and the conclusion of WW5 would bring peace, prosperity,
+and a permanent end of war for everyone on Earth.
+
+Professor Steve wasn’t supposed to run the simulator 23 years
+into the future, and he therefore wasn’t supposed to know
+about WW5 and FUN, but he had peeked inside the simu-
+lator when no one was looking. The prohibition on peeking
+was based on the understanding that if you see too far into
+the future, your insight about the future might influence the
+future, thereby invalidating the predictions of the simulation.
+
+At first, Professor Steve found the idea of God in a global
+constitution to be distasteful, but he reckoned it’s better than
+violence, poverty, and war. He had an idea! Maybe we can
+skip WW5 entirely by presenting the Quine simulator to the
+

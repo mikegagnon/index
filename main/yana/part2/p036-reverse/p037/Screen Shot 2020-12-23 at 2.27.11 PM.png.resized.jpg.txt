@@ -1,0 +1,27 @@
+a round, each player who comes in second place earns a near-
+victory token. At the end of the fourth round, everyone who
+has the second-most number of near-victory tokens, wins the
+game. Rational strategies for this game produce large, mutli-
+way ties.
+
+On one hand, you might think you would need to get
+all players at the table to agree to play First Loser Wins,
+but actually, the game is backwards compatible with existing
+games of global domination. For instance, say you’re playing
+Risk. If other players believe you’re winning, they will team
+up against you, and you will lose. But if you aim for second
+place, you will hopefully be a part of the winning coalition
+that knocks out the first-place player. Therefore, it’s ratio-
+nal to aim for second place, and consequently, if everyone is
+rational, no-one will achieve dominance, and the game will
+eventually end in an all-way tie.
+
+With regards to the Iran Nuclear Deal, if Iran simply gets
+to program the American Jumbotron, then the United States
+Government loses, which (a) the United States simply won’t
+tolerate, and (b) everyone will gun after Iran thereafter, be-
+cause Iran is now the #1 power. But if Iran lets the United
+States DJ Tehran, then both Iran and the United States lose,
+in a tie for second place, and, therefore, both win. It’s a
+mathematically sound strategy for balancing The Powers.
+

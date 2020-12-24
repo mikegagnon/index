@@ -1,0 +1,35 @@
+High-density Bombs
+
+A high-density bomb is a tiny bomb that has a huge effect.
+For example, the atomic bombs used in World War 2 were
+high-density bombs. 9/11 was a high-density bomb.
+
+In cyberspace, hackers sometimes have the opportunity to
+send a slow, perhaps imperceptible, stream of information at
+a target, which causes the target to become overloaded. Once
+overloaded, the target is effectively dead and can no longer
+perform its function. It would be like if you had the capability
+to shutdown Wikipedia using only your laptop.
+
+But, for a high-density cyberbomb to work, you must iden-
+tify a specific vulnerability in the target—like the Rebels and
+the Death Star. Discovering a vulnerability is probably the
+trickiest part of the whole attack. The precise nature of the
+vulnerability determines what bits the attacker must send to
+trigger the explosion, how many bits the attacker must send,
+and so on.
+
+Furthermore, there will be some point after you’ve launched
+your attack, perhaps minutes, hours, or days, after which the
+defenders will discover the flaw your attack is abusing, fix
+the flaw, and tell all their friends about the flaw and its fix,
+thereby rendering your particular bomb impotent thereafter.
+
+It is a common practice within cybersecurity circles to
+boost sales by spreading fear, uncertainty, and doubt. With
+that said, high-density cyberbombs scare me. Perhaps I have
+drank too much of my own kool aid, and everything is going
+to be groovy.
+
+64
+

@@ -1,0 +1,31 @@
+Zen Beer Garden
+
+Zen Beer Garden (ZBG) prevents overloads by employing
+bouncers and doormen. If a doorman to a garden wants to
+let someone into the garden, but the garden is full, then the
+doorman asks the bouncer for help. The bouncer then finds
+the person in the garden who has been there the longest, and
+kicks them out—making room for the new patron.
+
+Furthermore, every patron in the garden is guaranteed at
+least five minutes of time in the garden. So, what happens
+when a would-be patron wants to enter the garden, but no
+one has yet gone over time? Well, the doorman gives a task
+to the would-be patron at the door, and sends them on their
+way. To be admitted to the garden, the person must complete
+their task and prove to the doorman that they have finished
+their task. Most likely, there will be space in the garden at
+this point (I have a math proof).
+
+Beer Gardens are Zen because the tasks are riddles de-
+signed to enlighten the minds of the people in line.
+
+Lastly, I would also like to mention that nation states
+can use ZBG to defend their systems against high-density
+cyberbombs. Though in cyberspace, it’s probably impractical
+to use Zen riddles. Rather, brute-force cryptographic hash-
+cracking puzzles seem most practical. This was the topic of
+my Harvard thesis.
+
+14
+

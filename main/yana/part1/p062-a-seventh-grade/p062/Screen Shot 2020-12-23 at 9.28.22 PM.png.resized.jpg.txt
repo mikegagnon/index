@@ -1,0 +1,18 @@
+Seventh grade
+
+I was terrified of my parents’ wrath, but in the seventh grade
+I really wanted to break out of AOL’s walled garden, so I
+took a risk and wrote a contacts-list application with many
+features including usernames and passwords. I stored all the
+passwords in plaintext, so I could see them later when no one
+was looking.
+
+I showed my mother my latest creation, and asked her
+to create an account on my app. She obliged, but when it
+prompted her for a password, she looked at me sternly, told
+me she wasn’t going to type in a password, and left the room.
+
+Later, I showed my father the app, and when it prompted
+him for a password, he looked at me, winked, and typed in
+his AOL password.
+

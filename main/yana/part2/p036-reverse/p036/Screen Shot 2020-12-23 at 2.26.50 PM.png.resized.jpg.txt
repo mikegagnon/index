@@ -1,0 +1,16 @@
+Reverse Game Theory and First Loser Wins
+
+ 
+
+In game theory, players attempt to achieve their objective by
+behaving rationally. But, in reverse game theory, players de-
+sign games, such that when rational players play those games,
+it leads to overall favorable outcomes for all rational players.
+
+For example, consider the game First Loser Wins. The
+game proceeds in a series of four rounds. Each round, one or
+more players comes in first place, one or more players comes
+in second place, and so on for third place, and so on. Within
+
+36
+

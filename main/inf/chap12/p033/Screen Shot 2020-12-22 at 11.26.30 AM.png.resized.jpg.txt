@@ -1,0 +1,30 @@
+Chapter 12
+
+Super Hacker Deluxe
+
+According to the US DoD’s official doctrine in 2042, the
+cyber-kinetic nuclear superpowers of WW4 consisted of the
+Alliance, the Axis, the Terrorists, and Super Hacker Deluxe.
+Each of the powers was attempting to bring a different fate
+to Earth: the Alliance wanted democracy and capitalism;
+the Axis wanted dictatorship and communism, the Terrorists
+wanted to institute their vision of Buddhist law, and Super
+Hacker Deluxe wanted a truce.
+
+Deluxe, wasn’t an individual. Rather, Deluxe was an amor-
+phous collective of hackers operating as mostly independently
+cells, united by the goal of truce and the moniker Super
+Hacker Deluxe.
+
+Although Deluxe was labeled a superpower, they tended not
+to really believe it themselves. Sure, one of them hacked into a
+US ballistic-missile-defense system, just one time, and blacked
+out a radar with an algorithmic-complexity attack against the
+radar’s hypervisor, but that hardly qualifies them as a cyber-
+kinetic nuclear superpower, they tended to think. Plus, the
+whole radar-blackout thing was an accident according to the
+perpetrator (he claims he was just trying to fingerprint what
+he believed was a honeypot). But the US had latched onto
+
+33
+

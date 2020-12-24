@@ -1,0 +1,29 @@
+College
+
+I was accepted to only one college, Virginia Commonwealth
+University, and, free from my parents, I made it my mission
+to party as hard as possible and drink as much as possible.
+Despite succeeding in my mission, I graduated #1 in my class
+in 2007, with a degree in computer science.
+
+My undergraduate thesis weighed in on the “red-pill” /
+“blue-pill” debate of the time. In hacking, a red pill is a
+snippet of software that attempts to determine whether or
+not the software is under attack. In contrast, a blue pill is
+a snippet of software that attempts to trick red pills into
+thinking they’re not under attack, when, in fact, they actually
+are under attack. I concluded that red pills have a theoretical
+advantage over blue pills, because blue pills introduce timing
+anomalies that are fundamentally difficult to hide.
+
+In metaphorical terms, if someone is trying to trick you,
+and you're trying to figure out if you’re being tricked, then
+you have a fundamental advantage.
+
+The centerpiece of my thesis was a red-pill that measured
+the timing effects of “high-density cyberbombs” that only ex-
+plode upon contact with blue pills. A prestigious journal pub-
+lished a politically correct version of my thesis.
+
+63
+

@@ -1,0 +1,29 @@
+DARPA
+
+Shortly after I joined Twitter, DARPA invited “boutique”
+hackers from across America to submit proposals for revo-
+lutionary cybersecurity research and development. DARPA
+is the military agency that invented the Internet, GPS, and
+stealth airplanes.
+
+I proposed to fund myself and a colleague to develop and
+test a new defense against high-density cyberbombs, essen-
+tially picking up where my Harvard thesis left off. DARPA
+awarded me a six-month, six-figure grant, so I ended up work-
+ing two full-time jobs for a period of time in Silicon Valley. I
+named my cyber defense: Beer Garden.
+
+We built Beer Garden and tested it against a slew of at-
+tacks, targeting a variety of web applications, and it worked!
+Well, it only worked for half of the web applications we tested.
+The reason it didn’t work for the other half, is because the
+“bouncer” component was prohibitively inefficient for web
+applications implemented in certain programming languages.
+But, in principle, with bespoke optimizations, Beer Garden
+could be adapted to suit any web application.
+
+The Pentagon invited my colleague and me to present Beer
+Garden from their courtyard.
+
+69
+

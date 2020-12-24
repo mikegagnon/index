@@ -1,0 +1,30 @@
+Chapter 10
+
+Godel’s Lost Theorem
+
+Generally speaking, math should make sense. Which is to
+say, mathematical systems should not contain contradictions.
+Consider an example. Say someone posed to you a mathe-
+matical system that proclaimed that 2 and 2 is four, and 2
+and 2 is also 5. You would reject that mathematical system
+because it doesn’t make sense: it contains a contradiction,
+since 4 does not equal 5.
+
+Historically, the vast majority of mathematicians have re-
+jected mathematical systems that contain contradictions. But
+then, in 1930 a mathematician named Kurt Gédel announced
+his discovery that every consistent mathematical system con-
+tains a weakness. Specifically, every consistent mathematical
+system contains truths that cannot be proven to be true! For
+example, you may think that God does or does not exist, but
+if you use consistent logic it might just be the case that it’s
+impossible for you to prove your case.
+
+At first no one believed Gédel, for his claim was outrageous.
+All the other mathematicians at the time had assumed that if
+a statement were true, it must be possible to prove its truth
+using consistent mathematics. So, Gédel’s colleagues scruti-
+nized his proof, hoping to find a flaw and embarrass him.
+
+27
+

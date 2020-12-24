@@ -1,0 +1,12 @@
+Preface
+
+The calculus of infinity is strange. For instance, there are
+an infinite number of positive whole numbers (1, 2, 3, 4, 5,
+6...). And, there are also an infinite number of whole numbers
+(... -8, -2, -1, 0, 1, 2, 3...). Yet, there are about half as many
+positive whole numbers as there are whole numbers. So, there
+are degrees of infinity.
+
+But really, nothing is infinite. It’s just a mathematical con-
+struct to help us think about reality.
+
