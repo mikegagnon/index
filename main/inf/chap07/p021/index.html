@@ -8,7 +8,9 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../setup/img/favicon.png">
 
-    <title>Zen Beer Garden</title>
+    <title>Index</title>
+
+    <script src="../../../../setup/js/qrcode.js"></script> 
 
     <link href="../../../../setup/css/bootstrap.css" rel="stylesheet">
 
@@ -36,7 +38,7 @@
         <div class="container d-flex ">
           <a class="navbar-brand d-flex align-items-center">
             <img src="../../../../setup/img/favicon.png" width="20" height="20">
-            <strong>&nbsp;Zen Beer Garden</strong>
+            <strong>&nbsp;Index</strong>
             &nbsp;&nbsp;&nbsp;
             <span style='font-family: "Courier New"'>inf/chap07/p021/index.html</span>
         </a>
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-22 at 10.42.29 AM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-22 at 10.42.29 AM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/boston.html">#boston</a>  <a href="../hash/cognac.html">#cognac</a>  <a href="../hash/cyber.html">#cyber</a>  <a href="../hash/doorman.html">#doorman</a>  <a href="../hash/hedonism.html">#hedonism</a>  <a href="../hash/ll.html">#ll</a>  <a href="../hash/nihilism.html">#nihilism</a>  <a href="../hash/reality.html">#reality</a>  <a href="../hash/ww5.html">#ww5</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Chapter 7<br />
 <br />
 Divergence<br />
@@ -116,6 +118,17 @@ He knocked on the door, and Jimmy opened it.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

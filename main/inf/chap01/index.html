@@ -8,7 +8,9 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../setup/img/favicon.png">
 
-    <title>Zen Beer Garden</title>
+    <title>Index</title>
+
+    <script src="../../../setup/js/qrcode.js"></script> 
 
     <link href="../../../setup/css/bootstrap.css" rel="stylesheet">
 
@@ -36,7 +38,7 @@
         <div class="container d-flex ">
           <a class="navbar-brand d-flex align-items-center">
             <img src="../../../setup/img/favicon.png" width="20" height="20">
-            <strong>&nbsp;Zen Beer Garden</strong>
+            <strong>&nbsp;Index</strong>
             &nbsp;&nbsp;&nbsp;
             <span style='font-family: "Courier New"'>inf/chap01/index.html</span>
         </a>
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-21 at 6.48.59 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-21 at 6.48.59 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/2042.html">#2042</a>  <a href="../hash/baz.html">#baz</a>  <a href="../hash/chaos.html">#chaos</a>  <a href="../hash/dod.html">#dod</a>  <a href="../hash/fun.html">#fun</a>  <a href="../hash/gametheory.html">#gametheory</a>  <a href="../hash/god.html">#god</a>  <a href="../hash/holarchy.html">#holarchy</a>  <a href="../hash/holon.html">#holon</a>  <a href="../hash/ll.html">#ll</a>  <a href="../hash/mit.html">#mit</a>  <a href="../hash/order.html">#order</a>  <a href="../hash/quine.html">#quine</a>  <a href="../hash/rationality.html">#rationality</a>  <a href="../hash/sim.html">#sim</a>  <a href="../hash/ww.html">#ww</a>  <a href="../hash/ww2.html">#ww2</a>  <a href="../hash/ww4.html">#ww4</a>  <a href="../hash/ww5.html">#ww5</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Chapter 1<br />
 <br />
 The Quine Simulator<br />
@@ -138,6 +140,17 @@ The Quine Simulator<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

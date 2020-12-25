@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-24 at 11.06.54 AM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-24 at 11.06.54 AM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/absolute-reality.html">#absolute-reality</a>  <a href="../hash/alaya.html">#alaya</a>  <a href="../hash/boundary.html">#boundary</a>  <a href="../hash/brain.html">#brain</a>  <a href="../hash/buddhism.html">#buddhism</a>  <a href="../hash/concept.html">#concept</a>  <a href="../hash/conscious.html">#conscious</a>  <a href="../hash/crazy.html">#crazy</a>  <a href="../hash/crisis.html">#crisis</a>  <a href="../hash/delusion.html">#delusion</a>  <a href="../hash/dharmakaya.html">#dharmakaya</a>  <a href="../hash/ego.html">#ego</a>  <a href="../hash/egolessness.html">#egolessness</a>  <a href="../hash/emptiness.html">#emptiness</a>  <a href="../hash/go.html">#go</a>  <a href="../hash/illusion.html">#illusion</a>  <a href="../hash/imaginary.html">#imaginary</a>  <a href="../hash/lena.html">#lena</a>  <a href="../hash/marriage.html">#marriage</a>  <a href="../hash/metaphor.html">#metaphor</a>  <a href="../hash/nirvana.html">#nirvana</a>  <a href="../hash/other.html">#other</a>  <a href="../hash/particles.html">#particles</a>  <a href="../hash/peace.html">#peace</a>  <a href="../hash/photon.html">#photon</a>  <a href="../hash/reality.html">#reality</a>  <a href="../hash/samsara.html">#samsara</a>  <a href="../hash/science.html">#science</a>  <a href="../hash/shunyata.html">#shunyata</a>  <a href="../hash/trungpa.html">#trungpa</a>  <a href="../hash/universe.html">#universe</a>  <a href="../hash/wife.html">#wife</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Egolessness<br />
 </div>
                     </div>
@@ -152,6 +154,17 @@
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

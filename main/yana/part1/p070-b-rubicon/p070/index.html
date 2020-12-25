@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 11.19.50 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 11.19.50 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/anxiety.html">#anxiety</a>  <a href="../hash/depression.html">#depression</a>  <a href="../hash/first-loser-wins.html">#first-loser-wins</a>  <a href="../hash/helicopter.html">#helicopter</a>  <a href="../hash/lena.html">#lena</a>  <a href="../hash/nsa.html">#nsa</a>  <a href="../hash/psych.html">#psych</a>  <a href="../hash/psychiatrist.html">#psychiatrist</a>  <a href="../hash/rubicon.html">#rubicon</a>  <a href="../hash/side-channel.html">#side-channel</a>  <a href="../hash/snowden.html">#snowden</a>  <a href="../hash/weed.html">#weed</a>  <a href="../hash/wilden.html">#wilden</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Crossing the Rubicon<br />
 <br />
 I smoked cannabis for the first time shortly after Snowden&rsquo;s<br />
@@ -105,6 +107,17 @@ my thoughts on NSA&rsquo;s betrayal to the world&mdash;and, therefore,<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

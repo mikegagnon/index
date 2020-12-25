@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-25 at 12.44.16 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-25 at 12.44.16 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/arjun.html">#arjun</a>  <a href="../hash/cease-fire.html">#cease-fire</a>  <a href="../hash/enemy.html">#enemy</a>  <a href="../hash/gandhi.html">#gandhi</a>  <a href="../hash/gita.html">#gita</a>  <a href="../hash/god.html">#god</a>  <a href="../hash/hinduism.html">#hinduism</a>  <a href="../hash/india.html">#india</a>  <a href="../hash/krishna.html">#krishna</a>  <a href="../hash/oneness.html">#oneness</a>  <a href="../hash/war.html">#war</a>  <a href="../hash/warrior.html">#warrior</a>  <a href="../hash/ww1.html">#ww1</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Prologue to Part III<br />
 <br />
 Mahatma Gandhi referred to the Hindu epic The Bhagavad<br />
@@ -104,6 +106,17 @@ join the British forces during World War 1.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

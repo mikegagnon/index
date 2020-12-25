@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 11.03.32 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 11.03.32 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/af.html">#af</a>  <a href="../hash/bmd.html">#bmd</a>  <a href="../hash/bomb.html">#bomb</a>  <a href="../hash/dod.html">#dod</a>  <a href="../hash/gmu.html">#gmu</a>  <a href="../hash/high-density.html">#high-density</a>  <a href="../hash/lena.html">#lena</a>  <a href="../hash/ll.html">#ll</a>  <a href="../hash/mit.html">#mit</a>  <a href="../hash/nukes.html">#nukes</a>  <a href="../hash/pentagon.html">#pentagon</a>  <a href="../hash/podium.html">#podium</a>  <a href="../hash/red-team.html">#red-team</a>  <a href="../hash/war-game.html">#war-game</a>  <a href="../hash/war-room.html">#war-room</a>  <a href="../hash/ww4.html">#ww4</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>The War Room<br />
 <br />
 A little known fact about MIT, is that MIT&rsquo;s largest labo-<br />
@@ -108,6 +110,17 @@ my honeymoon with my new wife, Lena.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

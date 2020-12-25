@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -38,7 +40,7 @@
             <img src="../../../../../setup/img/favicon.png" width="20" height="20">
             <strong>&nbsp;Index</strong>
             &nbsp;&nbsp;&nbsp;
-            <span style='font-family: "Courier New"'>yana/part1/p061-first-grade/p061/index.html</span>
+            <span style='font-family: "Courier New"'>yana/part1/p061-a-first-grade/p061/index.html</span>
         </a>
 
         <a style=" text-decoration: underline; color: white" href="../index.html">up</a>        </div>
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 9.23.06 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 9.23.06 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/1990.html">#1990</a>  <a href="../hash/af.html">#af</a>  <a href="../hash/bomb.html">#bomb</a>  <a href="../hash/fighter-jet.html">#fighter-jet</a>  <a href="../hash/first-grade.html">#first-grade</a>  <a href="../hash/hawaii.html">#hawaii</a>  <a href="../hash/logo.html">#logo</a>  <a href="../hash/programming.html">#programming</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>First grade<br />
 <br />
 Once, when I was six years old, I drew a magnificent picture<br />
@@ -99,6 +101,17 @@ bor, Hawaii.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

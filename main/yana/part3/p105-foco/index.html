@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-25 at 2.45.58 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-25 at 2.45.58 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/angel.html">#angel</a>  <a href="../hash/buddha.html">#buddha</a>  <a href="../hash/co.html">#co</a>  <a href="../hash/coffee.html">#coffee</a>  <a href="../hash/delusion.html">#delusion</a>  <a href="../hash/elephant.html">#elephant</a>  <a href="../hash/enlightenment.html">#enlightenment</a>  <a href="../hash/father.html">#father</a>  <a href="../hash/fire.html">#fire</a>  <a href="../hash/foco.html">#foco</a>  <a href="../hash/jesus.html">#jesus</a>  <a href="../hash/jiu-jitsu.html">#jiu-jitsu</a>  <a href="../hash/krishna.html">#krishna</a>  <a href="../hash/laugh.html">#laugh</a>  <a href="../hash/lena.html">#lena</a>  <a href="../hash/lion.html">#lion</a>  <a href="../hash/merkabah.html">#merkabah</a>  <a href="../hash/mukumbe.html">#mukumbe</a>  <a href="../hash/religion.html">#religion</a>  <a href="../hash/rosabella.html">#rosabella</a>  <a href="../hash/schizo.html">#schizo</a>  <a href="../hash/shiva.html">#shiva</a>  <a href="../hash/tea.html">#tea</a>  <a href="../hash/turtle.html">#turtle</a>  <a href="../hash/wp.html">#wp</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Fort Collins<br />
 </div>
                     </div>
@@ -120,6 +122,17 @@
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-25 at 2.13.25 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-25 at 2.13.25 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/dathun.html">#dathun</a>  <a href="../hash/enlightenment.html">#enlightenment</a>  <a href="../hash/iran.html">#iran</a>  <a href="../hash/meditation.html">#meditation</a>  <a href="../hash/nukes.html">#nukes</a>  <a href="../hash/secret-service.html">#secret-service</a>  <a href="../hash/usa.html">#usa</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Enlightenment<br />
 <br />
 December 18, 2015<br />
@@ -102,6 +104,17 @@ My mind pops, and I&rsquo;m enlightened, yet again.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

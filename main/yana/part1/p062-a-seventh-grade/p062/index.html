@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 9.28.22 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 9.28.22 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/aol.html">#aol</a>  <a href="../hash/father.html">#father</a>  <a href="../hash/hacking.html">#hacking</a>  <a href="../hash/mom.html">#mom</a>  <a href="../hash/plaintext.html">#plaintext</a>  <a href="../hash/risk.html">#risk</a>  <a href="../hash/seventh-grade.html">#seventh-grade</a>  <a href="../hash/wink.html">#wink</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Seventh grade<br />
 <br />
 I was terrified of my parents&rsquo; wrath, but in the seventh grade<br />
@@ -104,6 +106,17 @@ his AOL password.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 9.10.22 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 9.10.22 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/fake-smile.html">#fake-smile</a>  <a href="../hash/father.html">#father</a>  <a href="../hash/jiu-jitsu.html">#jiu-jitsu</a>  <a href="../hash/secdef.html">#secdef</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>the SecDef, and, believe it or not, he shouted: &ldquo;OK, let&rsquo;s arm<br />
 wrestle! If you win, we&rsquo;ll do it your way, but if I win we&rsquo;ll do<br />
 it my way.&rdquo;<br />
@@ -98,6 +100,17 @@ photograph whether or not Al Gore was wearing a badge.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

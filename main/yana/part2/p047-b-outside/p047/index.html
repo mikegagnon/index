@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 6.30.39 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 6.30.39 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/beer-garden.html">#beer-garden</a>  <a href="../hash/cigs.html">#cigs</a>  <a href="../hash/doorman.html">#doorman</a>  <a href="../hash/jimmy.html">#jimmy</a>  <a href="../hash/jiu-jitsu.html">#jiu-jitsu</a>  <a href="../hash/police.html">#police</a>  <a href="../hash/rook.html">#rook</a>  <a href="../hash/tap-out.html">#tap-out</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Outside<br />
 <br />
 As soon as we're clear of the doorman, he throws a right<br />
@@ -109,6 +111,17 @@ Iranian?&rdquo; He says no. So, we trade cigarettes and smoke.<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

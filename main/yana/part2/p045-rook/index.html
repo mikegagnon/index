@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 6.21.27 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 6.21.27 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/beer.html">#beer</a>  <a href="../hash/beer-garden.html">#beer-garden</a>  <a href="../hash/bmd.html">#bmd</a>  <a href="../hash/bounce.html">#bounce</a>  <a href="../hash/bouncer.html">#bouncer</a>  <a href="../hash/cia.html">#cia</a>  <a href="../hash/coin.html">#coin</a>  <a href="../hash/doorman.html">#doorman</a>  <a href="../hash/general.html">#general</a>  <a href="../hash/honor.html">#honor</a>  <a href="../hash/irish.html">#irish</a>  <a href="../hash/jimmy.html">#jimmy</a>  <a href="../hash/jiu-jitsu.html">#jiu-jitsu</a>  <a href="../hash/military.html">#military</a>  <a href="../hash/rook.html">#rook</a>  <a href="../hash/super-rationality.html">#super-rationality</a>  <a href="../hash/usa.html">#usa</a>  <a href="../hash/ww4.html">#ww4</a>  <a href="../hash/zbg.html">#zbg</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Rook<br />
 <br />
  <br />
@@ -122,6 +124,17 @@
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>

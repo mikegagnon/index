@@ -10,6 +10,8 @@
 
     <title>Index</title>
 
+    <script src="../../../../../setup/js/qrcode.js"></script> 
+
     <link href="../../../../../setup/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -66,7 +68,7 @@
                   <a  href="Screen Shot 2020-12-23 at 6.16.49 PM.png.resized.jpg"><img class="card-img-top image-file" src="Screen Shot 2020-12-23 at 6.16.49 PM.png.resized.jpg"></a>
                               <div class="card-body darkdiv">
                       
-                      <div style='text-align: left;'>#hashtags <a href="../hash/beer.html">#beer</a>  <a href="../hash/beer-garden.html">#beer-garden</a>  <a href="../hash/booty-basement.html">#booty-basement</a>  <a href="../hash/cia.html">#cia</a>  <a href="../hash/coin.html">#coin</a>  <a href="../hash/doorman.html">#doorman</a>  <a href="../hash/father.html">#father</a>  <a href="../hash/iran.html">#iran</a>  <a href="../hash/jimmy.html">#jimmy</a>  <a href="../hash/military.html">#military</a>  <a href="../hash/mom.html">#mom</a>  <a href="../hash/oldtown.html">#oldtown</a>  <a href="../hash/slap.html">#slap</a>  <a href="../hash/zbg.html">#zbg</a> </div><span id='foohash'><br><br>
+                      <div style='text-align: left;'>#hashtags</div><span id='foohash'><br><br>
                       <div style='text-align: left;'>Booty Basement<br />
 <br />
 Jimmy parks off King Street, and I take him to Booty Base-<br />
@@ -117,6 +119,17 @@ brush against me, I check my pocket, my coins are gone, and<br />
         <p class="float-right">
           <!--<a href="trilogy.html">🐇</a>-->
         </p>
+        <center><div id="qrcode"></div></center><br><br>
+        <script type="text/javascript">
+          var qrcode = new QRCode("qrcode", {
+              text: window.location.href,
+              width: 300,
+              height: 300,
+              colorDark : "#000000",
+              colorLight : "#ffffff",
+              correctLevel : QRCode.CorrectLevel.H
+          });
+        </script>
         <p>Thanks <a href="https://getbootstrap.com/docs/4.0/examples/album/">Bootstrap</a>!</p>
       </div>
     </footer>
